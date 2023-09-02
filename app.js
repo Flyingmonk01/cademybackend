@@ -9,6 +9,7 @@ config({
 });
 const app = express();
 
+
 // Using Middlewares
 app.use(express.json());
 app.use(
@@ -50,7 +51,7 @@ res.send(
   );
   
 
-  
+
 app.use(ErrorMiddleware);
   
 export default app;
